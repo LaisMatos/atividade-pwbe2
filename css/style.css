@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background:cornsilk;
+}
+a{
+    color: black;
+    font-family: 'Roboto Slab', serif;
+}
+a:hover{
+    background: rgba(0, 0, 0, .05);
+}
+label.logo{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+#header{
+    /*box-sizing: border-box;  */ /*ajuda a calcular altura e largura*/
+    display: flex;
+    align-items: center;
+    height: 90%; /**/
+    padding: .5rem;
+    justify-content: space-between;
+    background-color: #99a8bed7;
+}
+#navUl{
+    gap: .5rem;
+    /*display: block;*/
+    height: 100%; /**/
+    
+}
+
+#navUl a{
+    display: block;      /*aumenta a area de contato*/
+    padding: .5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif; 
+}
+
+#menuBurguer{
+    margin-top: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menuBurguer a{
+    display: block;
+    text-decoration: none;
+}
+
+/*#navUl li{
+    
+}*/
+
+/*#navUl li:hover>a{
+ background-color: #909296d7;
+}*/
+
+/*######### ANOTAÇÃO ##########
+
+POSICIONAR A IMAGEM DE MENU HAMBURGUER 
+ARRUMAR ALTUR E LARGURA DO HEADER E SEUS ITENS
+ABRIR LISTA SOMENTE QUANDO O MENU FOR CLICADO (DROPDOWN)
+
+*/
