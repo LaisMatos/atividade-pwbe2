@@ -1,18 +1,28 @@
+<?php
+
+
+
+
+
+?>
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício PHP</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <title>Tabuada</title>
 </head>
 <body>
-    <header id="header">
+    
+<header id="header">
         <label class="logo">SENAI + $PHP</label>
-        
+      
         <div id="divMenu">
             <nav id="navMenu">
 
@@ -21,10 +31,10 @@
                         <img src="img/Group 1.png" alt="Menu">
 
                         <ul id="navUl">
-                            <li><a href="media/media.php">Média</a></li>
-                            <li><a href="caculadora/calculadora_simples.php">Calculadora</a></li>
-                            <li><a href="tabuada/tabuada.php">Tabuada</a></li>
-                            <li><a href="imparEpar/imparEpar.php">Pares e Impares</a></li>
+                            <li><a href="../media/media.php">Média</a></li>
+                            <li><a href="../calculadora/calculadora_simples.php">Calculadora</a></li>
+                            <li><a href="tabuada.php">Tabuada</a></li>
+                            <li><a href="../imparEpar/imparEpar.php">Pares e Impares</a></li>
                         </ul>
 
                     </li>
@@ -32,5 +42,6 @@
             </nav>
         </div>        
     </header>
+
 </body>
 </html>
